@@ -13,25 +13,22 @@ public class SelectorsCss {
 
     @Test
     public void elementsHeaderIlCarro() {
-        // Переход на страницу
-        driver.navigate().to("https://ilcarro.web.app/search");
 
-        // Ожидание загрузки страницы (временное решение)
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        driver.get("https://ilcarro.web.app/search");
+        driver.manage().window().maximize();
+        WebElement btnSearch = driver.findElement(By.cssSelector("a[id='0']"));
+        System.out.println(btnSearch.getText());
+        WebElement btnLetCarWork = driver.findElement(By.cssSelector("a[ng-reflect-router-link='let-car-work']"));
+        System.out.println(btnLetCarWork.getText());
+        WebElement btnTermsOfUse = driver.findElement(By.cssSelector("a[href='/terms-of-use']"));
+        System.out.println(btnTermsOfUse.getText());
+        WebElement btnRegistration = driver.findElement(By.cssSelector("*[ng-reflect-router-link='registration']"));
+        System.out.println(btnRegistration.getText());
+        btnRegistration.click();
+        driver.manage().window().maximize();
 
-        // Поиск элементов хедера с помощью CSS-селекторов
-        List<WebElement> headerElements = driver.findElements(By.cssSelector("header a"));
 
-        // Вывод текста из каждого элемента в консоль
-        for (WebElement element : headerElements) {
-            System.out.println(element.getText());
-        }
-
-        // Завершение работы драйвера
         driver.quit();
+        driver.close();
     }
 }
