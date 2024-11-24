@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e30f73-08c4-46d8-b04a-eea13a978de0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="29e30f73-08c4-46d8-b04a-eea13a978de0" name="Changes" comment="created XPathSelectors">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ILCarroXPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StartTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,24 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.SelectorCss.elementsHeaderIlCarro.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelectorsCss.elementsHeaderIlCarro.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.StartTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.StartTests.firstTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.StartTests.secondTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ILCarroXPath.typeRegForm.executor": "Run",
+    "Gradle.SelectorCss.elementsHeaderIlCarro.executor": "Run",
+    "Gradle.SelectorsCss.elementsHeaderIlCarro.executor": "Run",
+    "Gradle.StartTests.executor": "Run",
+    "Gradle.StartTests.firstTest.executor": "Run",
+    "Gradle.StartTests.secondTest.executor": "Run",
+    "Gradle.XPathSelectors.methodXPath.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IT/Auto_Projects/QA45_Demo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.SelectorsCss.elementsHeaderIlCarro">
-    <configuration name="SelectorCss.elementsHeaderIlCarro" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Gradle.ILCarroXPath.typeRegForm">
+    <configuration name="ILCarroXPath.typeRegForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +109,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.SelectorCss.elementsHeaderIlCarro&quot;" />
+            <option value="&quot;tests.ILCarroXPath.typeRegForm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,30 +134,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.SelectorsCss.elementsHeaderIlCarro&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StartTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.StartTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,6 +192,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="XPathSelectors.methodXPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.XPathSelectors.methodXPath&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -244,21 +244,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.SelectorCss.elementsHeaderIlCarro" />
+      <item itemvalue="Gradle.ILCarroXPath.typeRegForm" />
+      <item itemvalue="Gradle.XPathSelectors.methodXPath" />
       <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
       <item itemvalue="Gradle.StartTests.secondTest" />
-      <item itemvalue="Gradle.StartTests" />
       <item itemvalue="Gradle.StartTests.firstTest" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
+        <item itemvalue="Gradle.ILCarroXPath.typeRegForm" />
+        <item itemvalue="Gradle.XPathSelectors.methodXPath" />
         <item itemvalue="Gradle.StartTests.secondTest" />
+        <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
         <item itemvalue="Gradle.StartTests.firstTest" />
-        <item itemvalue="Gradle.SelectorCss.elementsHeaderIlCarro" />
-        <item itemvalue="Gradle.StartTests" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +271,15 @@
       <option name="presentableId" value="Default" />
       <updated>1731605693085</updated>
     </task>
+    <task id="LOCAL-00001" summary="created XPathSelectors">
+      <option name="closed" value="true" />
+      <created>1732214378247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732214378247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +292,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created XPathSelectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="created XPathSelectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
